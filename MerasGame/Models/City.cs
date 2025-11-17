@@ -180,7 +180,7 @@ namespace MerasGame.Models
         }
 
         public void EndOfRoundUpdate()
-        {
+        { //BUG
             if (IsLost) return;
 
             ApplyBuildingEffects();
@@ -190,6 +190,7 @@ namespace MerasGame.Models
             ApplyEnvironmentDecay();
 
             if (Budget < 0) Budget = 0;
+            if (IsLost) return;
         }
 
         private void ApplyBuildingEffects()

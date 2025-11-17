@@ -32,12 +32,5 @@ namespace MerasGame.Managers
                 Console.WriteLine($"Enter a number between {min} and {max}.");
             }
         }
-
-        public static bool AskYesNo(string question)
-        {
-            Console.Write($"{question} (Y/N): ");
-            var answer = Console.ReadLine()?.Trim().ToUpper();
-            return answer == "Y" || answer == "YES";
-        }
     }
 }

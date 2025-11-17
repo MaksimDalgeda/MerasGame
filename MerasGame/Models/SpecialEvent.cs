@@ -46,11 +46,5 @@ namespace MerasGame.Models
                 _effect?.Invoke(city);
             }
         }
-
-        public void Reset()
-        {
-            IsActive = false;
-            WasTriggered = false;
-        }
     }
 }

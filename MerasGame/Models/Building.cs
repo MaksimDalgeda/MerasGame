@@ -27,10 +27,5 @@ namespace MerasGame.Models
         {
             Effect.Execute(city);
         }
-
-        public override string ToString()
-        {
-            return $"{Name} (ID: {Id}) - {Effect.GetEffectSummary()}";
-        }
     }
 }
