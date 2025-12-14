@@ -180,7 +180,7 @@ namespace MerasGame.Models
         }
 
         public void EndOfRoundUpdate()
-        { //BUG
+        {
             if (IsLost) return;
 
             ApplyBuildingEffects();

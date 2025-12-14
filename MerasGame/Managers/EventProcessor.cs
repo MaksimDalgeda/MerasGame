@@ -6,7 +6,7 @@ namespace MerasGame.Managers
 {
     public class EventProcessor
     {
-        private const double RANDOM_EVENT_CHANCE = 0.25;
+        private const double RANDOM_EVENT_CHANCE = 0.1;
 
         private readonly List<CityEvent> _events;
         private readonly Random _rng;

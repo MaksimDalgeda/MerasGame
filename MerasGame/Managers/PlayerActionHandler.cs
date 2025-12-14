@@ -31,7 +31,7 @@ namespace MerasGame.Managers
             ShowActionMenu();
             var action = GetPlayerAction();
             city.ApplyAction(action);
-            Console.WriteLine($"? Action applied.");
+            Console.WriteLine($"Action applied.");
             ClearLines(8);
             var buildingManager = new BuildingManager();
             buildingManager.ManageCityBuildings(city);

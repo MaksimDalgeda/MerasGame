@@ -39,7 +39,7 @@ namespace MerasGame.Managers
                 Console.WriteLine("\nExisting buildings:");
                 for (int i = 0; i < city.Buildings.Count; i++)
                 {
-                    Console.WriteLine($"  {i + 1}. {city.Buildings[i]}");
+                    Console.WriteLine($"  {i + 1}. {city.Buildings[i].Name}");
                 }
             }
             else

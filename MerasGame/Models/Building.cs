@@ -20,7 +20,7 @@ namespace MerasGame.Models
             Type = type;
             Name = name;
             BuildCost = buildCost;
-            Effect = effect ?? throw new ArgumentNullException(nameof(effect));
+            Effect = effect;
         }
 
         public void ApplyEffectToCity(City city)
