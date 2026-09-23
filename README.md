@@ -3,7 +3,7 @@ Game - Miesto meras
 infrastruktūros	statybos.
 Reikalavimai:
 - Yra	gyventojų	skaičius,	biudžetas,	miesto	rodikliai	(pvz.	laimė,	saugumas,	aplinka).
-- - Žaidėjas	kiekviename	ture	priima	sprendimus:	statyti,	taisyti,	didinti	mokesčius,	
+- Žaidėjas	kiekviename	ture	priima	sprendimus:	statyti,	taisyti,	didinti	mokesčius,	
 mažinti	išlaidas.
 - Sprendimai	turi	teigiamų	ir	neigiamų	pasekmių.
 - Jei	biudžetas	nukrenta	iki	nulio	arba	gyventojų	laimė	tampa	labai	žema	–
